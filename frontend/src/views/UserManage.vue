@@ -106,7 +106,7 @@ import { ElMessage, ElMessageBox } from 'element-plus'
 import axios from 'axios'
 
 // API 基础地址
-const API_BASE = 'http://localhost:8080/api'
+const API_BASE = 'http://106.52.20.35:8080/api'
 
 // 搜索表单
 const searchForm = reactive({
