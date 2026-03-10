@@ -1,0 +1,36 @@
+# Backend
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/!**/src/main/**/target/
+backend/!**/src/test/**/target/
+backend/*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vscode/*
+!frontend/.vscode/extensions.json
+frontend/*.log
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
