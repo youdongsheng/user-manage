@@ -104,9 +104,7 @@
 import { ref, reactive, onMounted } from 'vue'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import axios from 'axios'
-
-// API 基础地址
-const API_BASE = 'http://106.52.20.35:8080/api'
+import { API_BASE } from '@/config/api'
 
 // 搜索表单
 const searchForm = reactive({
